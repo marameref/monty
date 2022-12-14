@@ -71,5 +71,5 @@ All files have been written in the Betty Style.
 **Amarachi Omereife**
 
 ## Collaborator
-**Anwulika Mordi (Anwulika-1)**
+**Anwulika Mordi (anwulika-1)**
 
