@@ -27,26 +27,26 @@
 
  ## Allowable opcodes and what they do
 
- |opcode  |  functionality|
- | --- | --- |
- push | add element to the 'top' of stack and 'end' of queue  |
- pop  | remove element from 'top' of stack and 'end' of queue |
- |pall  |print every member of the structure|
+* |opcode  |  functionality|
+* | --- | --- |
+* |push | add element to the 'top' of stack and 'end' of queue  |
+* |pop  | remove element from 'top' of stack and 'end' of queue |
+* |pall  |print every member of the structure|
 
-| pint | prints the member value at the top of stack |
- | swap | swaps the order  of the 1st and 2nd elements in stack |
- | add | add top two member values |
- | sub | subtract the top element from the 2nd top element |
-| div | divide the 2nd element by the top element |
-| mul | multiply the top two elements of the stack |
-| mod | the remainder when the 2nd element is divided by the top element |
-| comment | there is the ability to parse comments found in bytecode ->'#'|
-| pchar | print character at the top of the stack |
-| pstr | print the character at the top of the stack|
-| rotl | moves element at the top to the bottom of the stack |
-| rotr | the bottom of the stack becomes the top |
-| queue, stack | toggles the doubly link list implementation style |
-| nop | opcode should do nothing |
+* | pint | prints the member value at the top of stack |
+* | swap | swaps the order  of the 1st and 2nd elements in stack |
+* | add | add top two member values |
+* | sub | subtract the top element from the 2nd top element |
+* | div | divide the 2nd element by the top element |
+* | mul | multiply the top two elements of the stack |
+* | mod | the remainder when the 2nd element is divided by the top element |
+* | comment | there is the ability to parse comments found in bytecode ->'#'|
+* | pchar | print character at the top of the stack |
+* | pstr | print the character at the top of the stack|
+* | rotl | moves element at the top to the bottom of the stack |
+* | rotr | the bottom of the stack becomes the top |
+* | queue, stack | toggles the doubly link list implementation style |
+* | nop | opcode should do nothing |
 
  ## Exit Status
  Exits with status `EXIT_FAILURE`
@@ -60,12 +60,12 @@
 All files have been written in the Betty Style.
 
  ## Mandatory Tasks
-Task 0: Implement the push and pall opcodes
-Task 1: Implement the pint opcode (The opcode pint prints the value at the top of the stack, followed by a new line.)
-Task 2: Implement the pop opcode. (The opcode pop removes the top element of the stack)
-Task 3: Implement the swap opcode. (The opcode swap swaps the top two elements of the stack.)
-Task 4: Implement the add opcode. (The opcode adds the top two elements of the stack.)
-Task 6: Implement the nop opcode.(The opcode nop doesn’t do anything.)
+* Task 0: Implement the push and pall opcodes
+* Task 1: Implement the pint opcode (The opcode pint prints the value at the top of the stack, followed by a new line.)
+* Task 2: Implement the pop opcode. (The opcode pop removes the top element of the stack)
+* Task 3: Implement the swap opcode. (The opcode swap swaps the top two elements of the stack.)
+* Task 4: Implement the add opcode. (The opcode adds the top two elements of the stack.)
+* Task 6: Implement the nop opcode.(The opcode nop doesn’t do anything.)
 
 ## Author
 **Amarachi Omereife**
